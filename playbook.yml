@@ -1,0 +1,10 @@
+---
+- name: Simple test
+  hosts: localhost
+
+  tasks:
+    - name: Test file
+      template:
+        src: templates/test.txt.j2
+        dest: /tmp/test.txt
+        mode: '0640'
