@@ -1,6 +1,6 @@
 ---
 - name: Simple test
-  hosts: localhost
+  hosts: all
 
   tasks:
     - name: Test file
